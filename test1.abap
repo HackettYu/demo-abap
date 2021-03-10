@@ -33,6 +33,7 @@ ls_data-col3 = 1.
 ls_data-count = 1.
 APPEND ls_data TO lt_data.
 
+
 SORT lt_data BY col1 col2 col3.
 LOOP AT lt_data INTO DATA(ls_data).
   AT END OF col3.
